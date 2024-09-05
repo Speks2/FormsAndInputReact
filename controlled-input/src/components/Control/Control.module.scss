@@ -1,16 +1,37 @@
 *{
   padding: 0;
   margin: 0;
-  background: rgb(194, 194, 194);
+  background: rgb(235, 226, 226);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+  input {
+    background-color: rgb(248, 239, 69);
+    border-radius: 10px;
+  }
+  label {
+    background-color: rgb(225, 240, 176);
+  }
+  textarea {
+    background-color: yellow;
+    border-radius: 10px;
+  }
+  button {
+    margin: 1rem;
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(13, 255, 0);
+    border-radius: 10px;
+    &:hover {
+      background-color: rgb(241, 187, 88);
+      cursor: pointer;
+    }
+  }
 }
  
 .Input{
     margin-bottom: 2rem;
     background-color: red;
-   h1 {
-    color: blue;
-   }
    
+  
 }
 
